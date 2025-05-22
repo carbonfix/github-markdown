@@ -183,7 +183,7 @@ DuoS(eMMC):     install/soc_cv1813h_milkv_duos_emmc/upgrade.zip
 
 注意，SD 卡镜像为 `*.img`，eMMC镜像为 `upgrade.zip`。
 
-> [!NOTE]
+> [!TIP]
 > 除了使用 `build_all` 进行完整编译之外，还可以单独编译某个模块，一般来说都是先执行 `clean_xxx` 清理中间文件后，再执行 `build_xxx` 重新编译。支持的模块，可以输入 `clean_` 或者 `build_` 后，双击 `tab` 键查看。以下列出一些常用的模块编译方法：
 > - fsbl: `clean_fsbl`，`build_fsbl`
 > - uboot: `clean_uboot`，`build_uboot`
@@ -355,7 +355,7 @@ DuoS(eMMC):     install/soc_cv1813h_milkv_duos_emmc/upgrade.zip
 
 注意，SD 卡镜像为 `*.img`，eMMC镜像为 `upgrade.zip`。
 
-> [!NOTE]
+> [!TIP]
 > 除了使用 `build_all` 进行完整编译之外，还可以单独编译某个模块，一般来说都是先执行 `clean_xxx` 清理中间文件后，再执行 `build_xxx` 重新编译。支持的模块，可以输入 `clean_` 或者 `build_` 后，双击 `tab` 键查看。以下列出一些常用的模块编译方法：
 > - fsbl: `clean_fsbl`，`build_fsbl`
 > - uboot: `clean_uboot`，`build_uboot`

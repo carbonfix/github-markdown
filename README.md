@@ -184,7 +184,7 @@ DuoS(eMMC):     install/soc_cv1813h_milkv_duos_emmc/upgrade.zip
 
 Note that the SD card image is `*.img` and the eMMC image is `upgrade.zip`.
 
-> [!NOTE]
+> [!TIP]
 > In addition to using `build_all` for a complete compilation, you can also compile a module separately. Generally speaking, you should first execute `clean_xxx` to clean the intermediate files, and then execute `build_xxx` to recompile. For supported modules, you can enter `clean_` or `build_` and then double-click the `tab` key to view them. The following lists some common module compilation methods:
 > - fsbl: `clean_fsbl`，`build_fsbl`
 > - uboot: `clean_uboot`，`build_uboot`
@@ -356,7 +356,7 @@ DuoS(eMMC):     install/soc_cv1813h_milkv_duos_emmc/upgrade.zip
 
 Note that the SD card image is `*.img` and the eMMC image is `upgrade.zip`.
 
-> [!NOTE]
+> [!TIP]
 > In addition to using `build_all` for a complete compilation, you can also compile a module separately. Generally speaking, you should first execute `clean_xxx` to clean the intermediate files, and then execute `build_xxx` to recompile. For supported modules, you can enter `clean_` or `build_` and then double-click the `tab` key to view them. The following lists some common module compilation methods:
 > - fsbl: `clean_fsbl`，`build_fsbl`
 > - uboot: `clean_uboot`，`build_uboot`
